@@ -12042,7 +12042,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 </classes>
 <parts>
 <part name="U1" library="RHF78-052" deviceset="RHF78-052" device=""/>
-<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
+<part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1" value="SWD"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA12-1" device="" package3d_urn="urn:adsk.eagle:package:8348/1"/>
@@ -12056,21 +12056,41 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1"/>
+<part name="LED_TX_RED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="LED_RX_YELLOW" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MYF"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
 <part name="S1" library="switch-tact" deviceset="DTSM-6" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="1K"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="IC2" library="lm1117_10" deviceset="LM1117?-*" device="MP" technology="3.3"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1" value="VCC"/>
+<part name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1" value="GND"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1" value="LEDS"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-MRE"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="3V3_LED_BLUE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="TO-2013BC-BF"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/1" value="100"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12092,8 +12112,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <instance part="C2" gate="G$1" x="-78.74" y="43.18" rot="R180"/>
 <instance part="GND4" gate="1" x="-78.74" y="35.56"/>
 <instance part="GND6" gate="1" x="-43.18" y="-20.32"/>
-<instance part="LED1" gate="G$1" x="-22.86" y="27.94" rot="R270"/>
-<instance part="LED2" gate="G$1" x="-12.7" y="25.4" rot="R270"/>
+<instance part="LED_TX_RED" gate="G$1" x="-22.86" y="27.94" rot="R270"/>
+<instance part="LED_RX_YELLOW" gate="G$1" x="-12.7" y="25.4" rot="R270"/>
 <instance part="R1" gate="G$1" x="-2.54" y="27.94"/>
 <instance part="R2" gate="G$1" x="10.16" y="25.4"/>
 <instance part="S1" gate="G$1" x="127" y="93.98" rot="R270"/>
@@ -12107,6 +12127,26 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <instance part="C4" gate="G$1" x="-99.06" y="101.6"/>
 <instance part="P+4" gate="VCC" x="-91.44" y="116.84"/>
 <instance part="P+5" gate="VCC" x="22.86" y="35.56"/>
+<instance part="SV4" gate="G$1" x="-99.06" y="15.24"/>
+<instance part="SV5" gate="G$1" x="-124.46" y="15.24"/>
+<instance part="GND8" gate="1" x="-111.76" y="5.08"/>
+<instance part="P+6" gate="VCC" x="-86.36" y="30.48"/>
+<instance part="SV6" gate="G$1" x="-124.46" y="-25.4"/>
+<instance part="LED3" gate="G$1" x="-104.14" y="-20.32" rot="R270"/>
+<instance part="LED4" gate="G$1" x="-93.98" y="-22.86" rot="R270"/>
+<instance part="LED5" gate="G$1" x="-104.14" y="-25.4" rot="R270"/>
+<instance part="LED6" gate="G$1" x="-93.98" y="-27.94" rot="R270"/>
+<instance part="LED7" gate="G$1" x="-104.14" y="-30.48" rot="R270"/>
+<instance part="R4" gate="G$1" x="-83.82" y="-20.32"/>
+<instance part="R5" gate="G$1" x="-71.12" y="-22.86"/>
+<instance part="R6" gate="G$1" x="-83.82" y="-25.4"/>
+<instance part="R7" gate="G$1" x="-71.12" y="-27.94"/>
+<instance part="R8" gate="G$1" x="-83.82" y="-30.48"/>
+<instance part="GND9" gate="1" x="-60.96" y="-38.1"/>
+<instance part="3V3_LED_BLUE" gate="G$1" x="-53.34" y="78.74" rot="R270"/>
+<instance part="R9" gate="G$1" x="-68.58" y="78.74"/>
+<instance part="P+7" gate="VCC" x="-40.64" y="78.74" rot="R270"/>
+<instance part="GND10" gate="1" x="-83.82" y="78.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -12198,6 +12238,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <junction x="-20.32" y="2.54"/>
 <wire x1="-43.18" y1="-12.7" x2="-43.18" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<junction x="-43.18" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="3"/>
@@ -12218,6 +12259,56 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <wire x1="-99.06" y1="93.98" x2="-99.06" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-116.84" y="93.98"/>
 </segment>
+<segment>
+<pinref part="SV5" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="10.16" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="10.16" x2="-111.76" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="SV5" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="12.7" x2="-111.76" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="12.7" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SV5" gate="G$1" pin="3"/>
+<wire x1="-116.84" y1="15.24" x2="-111.76" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="15.24" x2="-111.76" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV5" gate="G$1" pin="4"/>
+<wire x1="-116.84" y1="17.78" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="17.78" x2="-111.76" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV5" gate="G$1" pin="5"/>
+<wire x1="-116.84" y1="20.32" x2="-111.76" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="20.32" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-111.76" y="17.78"/>
+<junction x="-111.76" y="15.24"/>
+<junction x="-111.76" y="12.7"/>
+<junction x="-111.76" y="10.16"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="-20.32" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-20.32" x2="-60.96" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="-60.96" y1="-22.86" x2="-60.96" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-25.4" x2="-60.96" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-27.94" x2="-60.96" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-30.48" x2="-78.74" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-66.04" y1="-22.86" x2="-60.96" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="-25.4" x2="-60.96" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="-66.04" y1="-27.94" x2="-60.96" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-30.48" x2="-60.96" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<junction x="-60.96" y="-20.32"/>
+<junction x="-60.96" y="-22.86"/>
+<junction x="-60.96" y="-25.4"/>
+<junction x="-60.96" y="-27.94"/>
+<junction x="-60.96" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="78.74" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -12230,11 +12321,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <wire x1="73.66" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="66.04" y1="58.42" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SV3" gate="1" pin="2"/>
-<wire x1="58.42" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -12275,6 +12361,33 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <junction x="22.86" y="27.94"/>
 </segment>
+<segment>
+<pinref part="SV4" gate="G$1" pin="5"/>
+<wire x1="-91.44" y1="20.32" x2="-86.36" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="20.32" x2="-86.36" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<wire x1="-91.44" y1="10.16" x2="-86.36" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="10.16" x2="-86.36" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="2"/>
+<wire x1="-86.36" y1="12.7" x2="-86.36" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="15.24" x2="-86.36" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="17.78" x2="-86.36" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="12.7" x2="-86.36" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<wire x1="-91.44" y1="15.24" x2="-86.36" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="4"/>
+<wire x1="-91.44" y1="17.78" x2="-86.36" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-86.36" y="20.32"/>
+<junction x="-86.36" y="17.78"/>
+<junction x="-86.36" y="15.24"/>
+<junction x="-86.36" y="12.7"/>
+</segment>
+<segment>
+<pinref part="3V3_LED_BLUE" gate="G$1" pin="A"/>
+<wire x1="-50.8" y1="78.74" x2="-43.18" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="NRST" class="0">
 <segment>
@@ -12299,6 +12412,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<junction x="116.84" y="93.98"/>
 </segment>
 </net>
 <net name="PA9" class="0">
@@ -12404,7 +12518,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <label x="43.18" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="1" pin="9"/>
+<wire x1="10.16" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 <label x="12.7" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -12532,11 +12647,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <label x="76.2" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="PA0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA0"/>
 <wire x1="114.3" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <label x="129.54" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="1" pin="2"/>
+<wire x1="58.42" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+<label x="76.2" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RFIO_HF" class="0">
@@ -12641,33 +12761,127 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lm1117-n.pdf"&gt;http://www
 <segment>
 <pinref part="IC1" gate="1" pin="CBUS0"/>
 <wire x1="-30.48" y1="27.94" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED_TX_RED" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="CBUS1"/>
 <wire x1="-30.48" y1="25.4" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED_RX_YELLOW" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED_TX_RED" gate="G$1" pin="A"/>
 <wire x1="-20.32" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED_RX_YELLOW" gate="G$1" pin="A"/>
 <wire x1="-10.16" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="5"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="-116.84" y1="-20.32" x2="-109.22" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="4"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="-116.84" y1="-22.86" x2="-99.06" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="3"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<wire x1="-116.84" y1="-25.4" x2="-109.22" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="2"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<wire x1="-116.84" y1="-27.94" x2="-99.06" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="SV6" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="-116.84" y1="-30.48" x2="-109.22" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-20.32" x2="-88.9" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-91.44" y1="-22.86" x2="-76.2" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-25.4" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-91.44" y1="-27.94" x2="-76.2" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-30.48" x2="-88.9" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="3V3_LED_BLUE" gate="G$1" pin="C"/>
+<wire x1="-63.5" y1="78.74" x2="-58.42" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,-58.42,38.1,IC1,OSCI,,,,"/>
+<approved hash="202,1,-30.48,43.18,IC1,!CTS,,,,"/>
+<approved hash="202,1,-30.48,38.1,IC1,!DSR,,,,"/>
+<approved hash="202,1,-30.48,35.56,IC1,!DCD,,,,"/>
+<approved hash="202,1,-30.48,33.02,IC1,!RI,,,,"/>
+<approved hash="104,1,-58.42,48.26,IC1,VCCIO,VCC,,,"/>
+<approved hash="202,1,-58.42,43.18,IC1,!RESET,,,,"/>
+<approved hash="202,1,-30.48,12.7,IC1,TEST,,,,"/>
+<approved hash="209,1,-111.76,60.96,ID,,,,,"/>
+<approved hash="106,1,-111.76,60.96,ID,,,,,"/>
+<approved hash="106,1,114.3,50.8,RFIO_HF,,,,,"/>
+<approved hash="106,1,114.3,55.88,RFIO_LF,,,,,"/>
+<approved hash="113,1,7.57767,96.8096,SV2,,,,,"/>
+<approved hash="113,1,55.8377,96.8096,SV3,,,,,"/>
+<approved hash="113,1,-73.3654,65.0986,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
