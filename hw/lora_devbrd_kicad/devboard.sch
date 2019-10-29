@@ -285,4 +285,92 @@ Wire Wire Line
 	9900 2100 10150 2100
 Wire Wire Line
 	9900 2200 10150 2200
+Text GLabel 4650 2750 0    50   Input ~ 0
+PA8
+Text GLabel 4650 2850 0    50   Input ~ 0
+PA9
+Text GLabel 4650 2950 0    50   Input ~ 0
+PA10
+Text GLabel 4650 3050 0    50   Input ~ 0
+NSS
+Text GLabel 4650 3150 0    50   Input ~ 0
+SCK
+Text GLabel 4650 3250 0    50   Input ~ 0
+MISO
+Text GLabel 4650 3350 0    50   Input ~ 0
+MOSI
+Text GLabel 4650 3450 0    50   Input ~ 0
+CTS
+Text GLabel 4650 3550 0    50   Input ~ 0
+RTS
+Text GLabel 6350 2650 2    50   Input ~ 0
+RFIO_LF
+Text GLabel 6350 2850 2    50   Input ~ 0
+RFIO_HF
+Text GLabel 6350 3050 2    50   Input ~ 0
+PA0
+Text GLabel 6350 3250 2    50   Input ~ 0
+PC13
+Text GLabel 6350 3350 2    50   Input ~ 0
+SDA
+Text GLabel 6350 3450 2    50   Input ~ 0
+SCL
+Text GLabel 6350 3550 2    50   Input ~ 0
+RX
+Text GLabel 6350 3650 2    50   Input ~ 0
+TX
+Text GLabel 6350 3750 2    50   Input ~ 0
+PB5
+Text GLabel 5900 4350 3    50   Input ~ 0
+PA3
+Text GLabel 5500 4350 3    50   Input ~ 0
+PB4
+Text GLabel 5400 4350 3    50   Input ~ 0
+PB3
+Text GLabel 5300 4350 3    50   Input ~ 0
+PA15
+Wire Wire Line
+	4650 2750 4850 2750
+Wire Wire Line
+	4650 2850 4850 2850
+Wire Wire Line
+	4650 2950 4850 2950
+Wire Wire Line
+	4650 3050 4850 3050
+Wire Wire Line
+	4650 3150 4850 3150
+Wire Wire Line
+	4650 3250 4850 3250
+Wire Wire Line
+	4650 3350 4850 3350
+Wire Wire Line
+	4650 3450 4850 3450
+Wire Wire Line
+	4650 3550 4850 3550
+Wire Wire Line
+	6200 2650 6350 2650
+Wire Wire Line
+	6200 2850 6350 2850
+Wire Wire Line
+	6200 3050 6350 3050
+Wire Wire Line
+	6200 3250 6350 3250
+Wire Wire Line
+	6200 3350 6350 3350
+Wire Wire Line
+	6200 3450 6350 3450
+Wire Wire Line
+	6200 3550 6350 3550
+Wire Wire Line
+	6200 3650 6350 3650
+Wire Wire Line
+	6200 3750 6350 3750
+Wire Wire Line
+	5900 4100 5900 4350
+Wire Wire Line
+	5500 4100 5500 4350
+Wire Wire Line
+	5400 4100 5400 4350
+Wire Wire Line
+	5300 4100 5300 4350
 $EndSCHEMATC
