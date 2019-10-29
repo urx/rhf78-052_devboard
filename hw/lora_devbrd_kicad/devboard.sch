@@ -1,0 +1,116 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L rhf78-052:rhf78-052 U?
+U 1 1 5DB8B319
+P 5200 2450
+F 0 "U?" H 5525 2575 50  0000 C CNN
+F 1 "rhf78-052" H 5525 2484 50  0000 C CNN
+F 2 "" H 5500 2550 50  0001 C CNN
+F 3 "" H 5500 2550 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB8CB81
+P 4350 2250
+F 0 "#PWR?" H 4350 2100 50  0001 C CNN
+F 1 "+3.3V" H 4365 2423 50  0000 C CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2550 4350 2550
+Wire Wire Line
+	4350 2550 4350 2250
+Text GLabel 6550 3150 2    50   Input ~ 0
+nRST
+Wire Wire Line
+	6200 3150 6550 3150
+$Comp
+L Device:R_US R?
+U 1 1 5DB902D3
+P 3950 2550
+F 0 "R?" V 3745 2550 50  0000 C CNN
+F 1 "R_US" V 3836 2550 50  0000 C CNN
+F 2 "" V 3990 2540 50  0001 C CNN
+F 3 "~" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 3500 2550 0    50   Input ~ 0
+nRST
+Wire Wire Line
+	3500 2550 3800 2550
+Wire Wire Line
+	4100 2550 4350 2550
+Connection ~ 4350 2550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DB94CFE
+P 3850 1150
+F 0 "#PWR?" H 3850 1000 50  0001 C CNN
+F 1 "+3.3V" H 3865 1323 50  0000 C CNN
+F 2 "" H 3850 1150 50  0001 C CNN
+F 3 "" H 3850 1150 50  0001 C CNN
+	1    3850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DB95C80
+P 3850 1500
+F 0 "C?" H 3965 1546 50  0000 L CNN
+F 1 "C" H 3965 1455 50  0000 L CNN
+F 2 "" H 3888 1350 50  0001 C CNN
+F 3 "~" H 3850 1500 50  0001 C CNN
+	1    3850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB9680D
+P 3850 1900
+F 0 "#PWR?" H 3850 1650 50  0001 C CNN
+F 1 "GND" H 3855 1727 50  0000 C CNN
+F 2 "" H 3850 1900 50  0001 C CNN
+F 3 "" H 3850 1900 50  0001 C CNN
+	1    3850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1150 3850 1350
+Wire Wire Line
+	3850 1650 3850 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5DB96AFE
+P 4000 2700
+F 0 "#PWR?" H 4000 2450 50  0001 C CNN
+F 1 "GND" H 4005 2527 50  0000 C CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 4000 2650
+Wire Wire Line
+	4000 2650 4850 2650
+$EndSCHEMATC
