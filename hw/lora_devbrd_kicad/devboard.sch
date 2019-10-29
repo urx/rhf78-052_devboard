@@ -113,4 +113,176 @@ Wire Wire Line
 	4000 2700 4000 2650
 Wire Wire Line
 	4000 2650 4850 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5DB97714
+P 7250 2950
+F 0 "#PWR?" H 7250 2700 50  0001 C CNN
+F 1 "GND" H 7255 2777 50  0000 C CNN
+F 2 "" H 7250 2950 50  0001 C CNN
+F 3 "" H 7250 2950 50  0001 C CNN
+	1    7250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2950 7250 2950
+Wire Wire Line
+	6200 2550 7250 2550
+Wire Wire Line
+	7250 2550 7250 2750
+Connection ~ 7250 2950
+Wire Wire Line
+	6200 2750 7250 2750
+Connection ~ 7250 2750
+Wire Wire Line
+	7250 2750 7250 2950
+$Comp
+L Connector_Generic_MountingPin:Conn_01x05_MountingPin J?
+U 1 1 5DB9A833
+P 6000 1200
+F 0 "J?" H 6088 1164 50  0000 L CNN
+F 1 "Conn_01x05_MountingPin" H 6088 1073 50  0000 L CNN
+F 2 "" H 6000 1200 50  0001 C CNN
+F 3 "~" H 6000 1200 50  0001 C CNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 1000 0    50   Input ~ 0
++3.3V
+Text GLabel 5350 1100 0    50   Input ~ 0
+nRST
+Text GLabel 5350 1200 0    50   Input ~ 0
+SWDIO
+Text GLabel 5350 1300 0    50   Input ~ 0
+SWCLK
+Text GLabel 5350 1400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5350 1000 5800 1000
+Wire Wire Line
+	5350 1100 5800 1100
+Wire Wire Line
+	5350 1200 5800 1200
+Wire Wire Line
+	5350 1300 5800 1300
+Wire Wire Line
+	5350 1400 5800 1400
+Text GLabel 4400 3650 0    50   Input ~ 0
+SWDIO
+Text GLabel 4400 3750 0    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	4400 3650 4850 3650
+Wire Wire Line
+	4400 3750 4850 3750
+Text GLabel 8750 1200 2    50   Input ~ 0
+PA8
+Text GLabel 8750 1300 2    50   Input ~ 0
+PA9
+Text GLabel 8750 1400 2    50   Input ~ 0
+PA10
+Text GLabel 8750 1500 2    50   Input ~ 0
+NSS
+Text GLabel 8750 1600 2    50   Input ~ 0
+SCK
+Text GLabel 8750 1700 2    50   Input ~ 0
+MISO
+Text GLabel 8750 1800 2    50   Input ~ 0
+MOSI
+Text GLabel 8750 1900 2    50   Input ~ 0
+CTS
+Text GLabel 8750 2000 2    50   Input ~ 0
+RTS
+Text GLabel 8750 2100 2    50   Input ~ 0
+SWDIO
+Text GLabel 8750 2200 2    50   Input ~ 0
+SWCLK
+Text GLabel 10150 2200 2    50   Input ~ 0
+PA15
+Text GLabel 10150 2100 2    50   Input ~ 0
+PB3
+Text GLabel 10150 2000 2    50   Input ~ 0
+PB4
+Text GLabel 10150 1900 2    50   Input ~ 0
+PA3
+Text GLabel 10150 1800 2    50   Input ~ 0
+PB5
+Text GLabel 10150 1700 2    50   Input ~ 0
+TX
+Text GLabel 10150 1600 2    50   Input ~ 0
+RX
+Text GLabel 10150 1200 2    50   Input ~ 0
+PA0
+Text GLabel 10150 1300 2    50   Input ~ 0
+PC13
+Text GLabel 10150 1400 2    50   Input ~ 0
+SDA
+Text GLabel 10150 1500 2    50   Input ~ 0
+SCL
+$Comp
+L Connector:Conn_01x11_Male J?
+U 1 1 5DBB1F8B
+P 8300 1700
+F 0 "J?" H 8408 2381 50  0000 C CNN
+F 1 "Conn_01x11_Male" H 8408 2290 50  0000 C CNN
+F 2 "" H 8300 1700 50  0001 C CNN
+F 3 "~" H 8300 1700 50  0001 C CNN
+	1    8300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x11_Male J?
+U 1 1 5DBB3C7F
+P 9700 1700
+F 0 "J?" H 9808 2381 50  0000 C CNN
+F 1 "Conn_01x11_Male" H 9808 2290 50  0000 C CNN
+F 2 "" H 9700 1700 50  0001 C CNN
+F 3 "~" H 9700 1700 50  0001 C CNN
+	1    9700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1200 8750 1200
+Wire Wire Line
+	8500 1300 8750 1300
+Wire Wire Line
+	8500 1400 8750 1400
+Wire Wire Line
+	8500 1500 8750 1500
+Wire Wire Line
+	8500 1600 8750 1600
+Wire Wire Line
+	8500 1700 8750 1700
+Wire Wire Line
+	8500 1800 8750 1800
+Wire Wire Line
+	8500 1900 8750 1900
+Wire Wire Line
+	8500 2000 8750 2000
+Wire Wire Line
+	8500 2100 8750 2100
+Wire Wire Line
+	8500 2200 8750 2200
+Wire Wire Line
+	9900 1200 10150 1200
+Wire Wire Line
+	9900 1300 10150 1300
+Wire Wire Line
+	9900 1400 10150 1400
+Wire Wire Line
+	9900 1500 10150 1500
+Wire Wire Line
+	9900 1600 10150 1600
+Wire Wire Line
+	9900 1700 10150 1700
+Wire Wire Line
+	9900 1800 10150 1800
+Wire Wire Line
+	9900 1900 10150 1900
+Wire Wire Line
+	9900 2000 10150 2000
+Wire Wire Line
+	9900 2100 10150 2100
+Wire Wire Line
+	9900 2200 10150 2200
 $EndSCHEMATC
