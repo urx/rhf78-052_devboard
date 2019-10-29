@@ -1,3 +1,0 @@
-[submodule "hw/lora_devbrd/libs/my_own"]
-	path = hw/lora_devbrd/libs/my_own
-	url = https://github.com/urx/eagle_libraries.git
