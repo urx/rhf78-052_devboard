@@ -1084,16 +1084,4 @@ F 3 "~" H 2250 6250 50  0001 C CNN
 	1    2250 6250
 	1    0    0    -1  
 $EndComp
-Text Notes 9350 5200 0    50   ~ 0
-Datasheet requires cap be tantalum
-Text Notes 10300 4950 0    50   ~ 0
-C3 must be bigger capacitance, 100?
-Text Notes 2200 6650 0    50   ~ 0
-What for?
-Text Notes 5000 6900 0    50   ~ 0
-Where D3, R4 are supposed to be located?
-Text Notes 1200 4800 0    50   ~ 0
-how R and C are chosen?
-Text Notes 3950 1500 0    50   ~ 0
-What is this ?
 $EndSCHEMATC
