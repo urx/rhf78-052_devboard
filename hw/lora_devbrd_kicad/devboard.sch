@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:devboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -173,10 +174,6 @@ Text GLabel 1400 2050 2    50   Input ~ 0
 CTS
 Text GLabel 1400 2150 2    50   Input ~ 0
 RTS
-Text GLabel 1400 2250 2    50   Input ~ 0
-SWDIO
-Text GLabel 1400 2350 2    50   Input ~ 0
-SWCLK
 Text GLabel 2800 2350 2    50   Input ~ 0
 PA15
 Text GLabel 2800 2250 2    50   Input ~ 0
@@ -239,10 +236,6 @@ Wire Wire Line
 	1150 2050 1400 2050
 Wire Wire Line
 	1150 2150 1400 2150
-Wire Wire Line
-	1150 2250 1400 2250
-Wire Wire Line
-	1150 2350 1400 2350
 Wire Wire Line
 	2550 1350 2800 1350
 Wire Wire Line
@@ -346,7 +339,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4800 2650 5050
 $Comp
-L Interface_USB:FT232RL U3
+L devboard-rescue:FT232RL-Interface_USB U3
 U 1 1 5DBDE2AF
 P 8750 2500
 F 0 "U3" H 8750 3500 50  0000 C CNN
@@ -1096,4 +1089,68 @@ Text Notes 1200 4800 0    50   ~ 0
 how R and C are chosen?
 Text Notes 3950 1500 0    50   ~ 0
 What is this ?
+$Comp
+L Device:R_US R9
+U 1 1 5DC1E954
+P 1700 2250
+F 0 "R9" V 1495 2250 50  0000 C CNN
+F 1 "440" V 1600 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1740 2240 50  0001 C CNN
+F 3 "~" H 1700 2250 50  0001 C CNN
+	1    1700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 5DC1E9F0
+P 1700 2350
+F 0 "R10" V 1850 2350 50  0000 C CNN
+F 1 "440" V 1800 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1740 2340 50  0001 C CNN
+F 3 "~" H 1700 2350 50  0001 C CNN
+	1    1700 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 2250 1550 2250
+Wire Wire Line
+	1150 2350 1550 2350
+Text GLabel 1950 2250 2    50   Input ~ 0
+SWDIO
+Text GLabel 1950 2350 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	1850 2250 1950 2250
+Wire Wire Line
+	1850 2350 1950 2350
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5DC40CA5
+P 5550 4300
+F 0 "SW1" H 5550 4585 50  0000 C CNN
+F 1 "Reset" H 5550 4494 50  0000 C CNN
+F 2 "" H 5550 4500 50  0001 C CNN
+F 3 "" H 5550 4500 50  0001 C CNN
+	1    5550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5DC41834
+P 5100 4400
+F 0 "#PWR019" H 5100 4150 50  0001 C CNN
+F 1 "GND" H 5105 4227 50  0000 C CNN
+F 2 "" H 5100 4400 50  0001 C CNN
+F 3 "" H 5100 4400 50  0001 C CNN
+	1    5100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4400 5100 4300
+Wire Wire Line
+	5100 4300 5350 4300
+Text GLabel 6000 4300 2    50   Input ~ 0
+nRST
+Wire Wire Line
+	5750 4300 6000 4300
 $EndSCHEMATC
