@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:devboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -127,12 +128,7 @@ $EndComp
 Wire Wire Line
 	3550 3650 4600 3650
 Wire Wire Line
-	3550 3250 4600 3250
-Wire Wire Line
-	4600 3250 4600 3450
-Wire Wire Line
 	3550 3450 4600 3450
-Connection ~ 4600 3450
 Wire Wire Line
 	4600 3450 4600 3650
 Text GLabel 3750 1800 0    50   Input ~ 0
@@ -809,8 +805,6 @@ Wire Wire Line
 	3600 1700 4200 1700
 Wire Wire Line
 	3600 2100 4200 2100
-NoConn ~ 3550 3350
-NoConn ~ 3550 3550
 $Comp
 L power:+5V #PWR0103
 U 1 1 5DC7E74E
@@ -1116,8 +1110,8 @@ U 1 1 5DC40CA5
 P 5550 4300
 F 0 "SW1" H 5550 4585 50  0000 C CNN
 F 1 "FSM8JSMATR" H 5550 4494 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5550 4500 50  0001 C CNN
-F 3 "" H 5550 4500 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 5550 4500 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/kls7-ts3608-5.0-180-td-02xa" H 5550 4500 50  0001 C CNN
 	1    5550 4300
 	1    0    0    -1  
 $EndComp
@@ -1141,4 +1135,71 @@ nRST
 Wire Wire Line
 	5750 4300 6000 4300
 Connection ~ 4600 3650
+Connection ~ 4600 3450
+Wire Wire Line
+	4600 3250 4600 3450
+Wire Wire Line
+	3550 3250 4600 3250
+$Comp
+L Connector:Conn_Coaxial_Power J10
+U 1 1 5DC4C894
+P 5550 2400
+F 0 "J10" V 5775 2350 50  0000 C CNN
+F 1 "Conn_Coaxial_Power" V 5684 2350 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 5550 2350 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/sma-jr50w-br-19-h-73251-220" H 5550 2350 50  0001 C CNN
+	1    5550 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial_Power J9
+U 1 1 5DC48EAA
+P 5550 2050
+F 0 "J9" V 5775 2000 50  0000 C CNN
+F 1 "Conn_Coaxial_Power" V 5684 2000 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 5550 2000 50  0001 C CNN
+F 3 "https://www.chipdip.ru/product/sma-jr50w-br-19-h-73251-220" H 5550 2000 50  0001 C CNN
+	1    5550 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5450 2050 0    50   Input ~ 0
+ANT_LF
+Text GLabel 5450 2400 0    50   Input ~ 0
+ANT_HF
+Text GLabel 3700 3550 2    50   Input ~ 0
+ANT_HF
+Text GLabel 3700 3350 2    50   Input ~ 0
+ANT_LF
+$Comp
+L power:GND #PWR0104
+U 1 1 5DCCAC5F
+P 6050 2400
+F 0 "#PWR0104" H 6050 2150 50  0001 C CNN
+F 1 "GND" H 6055 2227 50  0000 C CNN
+F 2 "" H 6050 2400 50  0001 C CNN
+F 3 "" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DCCB652
+P 6050 2050
+F 0 "#PWR0105" H 6050 1800 50  0001 C CNN
+F 1 "GND" H 6055 1877 50  0000 C CNN
+F 2 "" H 6050 2050 50  0001 C CNN
+F 3 "" H 6050 2050 50  0001 C CNN
+	1    6050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2050 6050 2050
+Wire Wire Line
+	6050 2400 5750 2400
+Wire Wire Line
+	3700 3350 3550 3350
+Wire Wire Line
+	3550 3550 3700 3550
+Wire Wire Line
+	5550 2050 5600 2050
 $EndSCHEMATC
